@@ -1,0 +1,41 @@
+D:\Henna\MetapopDyn_05d_dispersal_samples_100rep\yasp		file name stem for host species 1 input map (without year and .gis extension)
+D:\Henna\MetapopDyn_05d_dispersal_samples_100rep\ywil		file name stem for host species 2 input map
+50              minimum age of host 1 suitable as substrate (-1 = never suitable)
+50              minimum age of host 2 suitable as substrate (-1 = never suitable)
+10               earliest reproductive age for simulated species
+5		    dispersal curve (1-exponential: exp(-a*d), 2-power: d^(-a), 3-lognorm: exp(-a*(ln(d)-b)^2), 4-2p exponential, 5-tDC
+0.6898            parameter 'alpha' for dispersal curve
+0		    parameter 'beta' for disp curve (used for lognorm only)
+34.49		    parameter 'c' for disp curve (used for 2p exp kernel & t-distribution; HF)
+-3.2136            colonization rate coefficient on host species 1 (note: per time step)
+-3.2136	    colonization rate coefficient on host species 2 
+1			exponent for host age effect on colonization on host 1
+1			exponent for host age effect on colonization on host 2
+100            random extinction rate (note: per time step)
+0.25             initial proportion of substrate cells occupied by focal species
+2			boundary conditions: 1=absorbing, 2=toroidal
+15		   range of aggregation for optimization (e.g. 20 for 20x20-cell aggregates)
+10			radius for exact dispersal (within this distance sources not aggregated)
+500            year of Fin-Landis output to start metapopulation simulation
+1700               simulation length in years
+10               simulation time step in years
+300			# of rows in the simulation grid (300)
+434			# of columns in the simulation grid (434)
+9 			row offset for simulation grid in relation to input map (9)	
+25			column offset for simulation grid (25)
+390 			# of rows in the input (Fin-Landis) map (390)
+805			# of columns in the input (Fin-Landis) map (805)
+3605910	 		x coordinate of the center of the NW-most cell of input map (3605910)
+7093590 		y coordinate of the center of the NW-most cell of input map (7093590)
+1 			ha-cell coordinate input list 'hacelldata.txt' in use: 1-yes, 0-no
+0000_popu.log        log file name
+0000_popu            stem for output map name (e.g. popu -> popu110.gis)
+0000_coord           coordinate format output file name
+200               map output frequency (1=always;0=only at end;-1=never;n=every n years)
+200              coordinate file output frequency (1=always;0=only at end;-1=never;n=every n years)
+
+About the format of this file: Parameters have to be in correct order
+at the beginning of consequtive lines. First line has to start with first 
+parameter. Each line can have comments after the parameter. After the 
+last parameter value you can write anything you like.
+

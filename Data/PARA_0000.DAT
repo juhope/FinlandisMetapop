@@ -1,0 +1,27 @@
+#LANDIS parameter input file::Teerisuo data#
+minispec_0000.dat    #Species Vital Attributes File#
+miniland_0000.dat    #Land Units Vital Attributes File#
+karttac.gis      #Input map file, ERDAS 7.4 8 bit GIS file#
+teeriattr.dat    #Overlaid attributes correspond to random.gis#
+mapindex.dat    #output map index#
+ageindex.dat    #species age output map index#
+Output          #Output directory#
+dist.dat        #Disturbance input file#
+default.plt     #LANDIS internal file#
+freq_out.put    #output frequency management file#
+220             #Number of iterations#
+0               #Random number seed,0--multi-random series (1)#
+20              #Cell size in meters#
+SIM_RAND_ASYM       #(SIM_RAND_ASYM, DISPERSAL) Seed dispersal routine#
+0               #flag of wind. 0-no;1-std;2-mean;3-strng;4-lght#
+1               #flag of fire, 0-no;1-std;2-mean;3-strng;4-lght#
+0               #flag of harvesting, 1--on; 0--off#
+1		    #changing establishment coefficient. 0-no;1-yes#
+0		    #fire prob mode. 1-linear;0-constant#	
+0               #Wind disturbance probability coefficient (10)#
+0               #Wind disturbance size coefficient#
+100             #Fire disturbance probability coefficient (shortest fire interval recommended) #
+100             #Relative fire intensity variability, originally 0.3#
+0               #Wind breakout coefficient#
+0               #Flag for AAB mode#
+1850            #First year of fire suppression#

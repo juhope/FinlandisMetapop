@@ -1,0 +1,105 @@
+#0 buffer behaves like dryish forest without trees# buffer 100 100
+#poputrem# 0   000000000000000
+00
+#salicapr# 0   000000000000000
+		   000000000000000
+
+#1 tyhjä# empty 0 0
+#poputrem# 0   000000000000000
+00
+#salicapr# 0   000000000000000
+00
+
+#2 rehevät korvet# spruce.swamp 100 100
+#poputrem# 0   000000001100000
+		   000000001100000
+#salicapr# 0   000000001100000
+		   000000001100000
+
+#3 tyhjä# empty 0 0
+#poputrem# 0   000000000000000
+00
+#salicapr# 0   000000000000000
+00
+
+#4 mustikkakorvet# spruce.swamp 100 100
+#poputrem# 0   000000001100000
+		   000000001100000
+#salicapr# 0   000000001100000
+		   000000001100000
+
+#5 puolukkakorvet# spruce.swamp 100 100
+#poputrem# 0   000000001100000
+		   000000001100000
+#salicapr# 0   000000001100000
+		   000000001100000
+
+#6 lehdot# mesic.forest 100 100
+#poputrem# 0   000000001100000
+		   000000001100000
+#salicapr# 0   000000001100000
+		   000000001100000
+
+#7 lehtomaiset# mesic.forest 100 100
+#poputrem# 0   000000001100000
+		   000000001100000
+#salicapr# 0   000000001100000
+		   000000001100000
+
+#8 tuore# mesic.forest 100 100
+#poputrem# 0   000000001100000
+		   000000001100000
+#salicapr# 0   000000001100000
+		   000000001100000
+
+#9 kuivahko# dryish.forest 100 100
+#poputrem# 0   000000000001000
+00
+#salicapr# 0   000000000001000
+		   000000000000000
+
+#10 kuivat+karukko+kalliot# dryish.forest 100 100
+#poputrem# 0   000000000001000
+00
+#salicapr# 0   000000000001000
+		   000000000000000
+
+#11 # pine.bog 100 100
+#poputrem# 0   000000000000000
+00
+#salicapr# 0   000000000000000
+00
+
+#12 kitumaan korvet# spruce.swamp 100 100
+#poputrem# 0   000000001100000
+		   000000001100000
+#salicapr# 0   000000001100000
+		   000000001100000
+
+
+#13 kiturämeet# pine.bog 100 100
+#poputrem# 0   000000000000000
+00
+#salicapr# 0   000000000000000
+00
+
+#14 avosuot# vatmark 0 0
+#poputrem# 0   000000000000000
+00
+#salicapr# 0   000000000000000
+00
+
+#15 vedet# water 0 0
+#poputrem# 0   000000000000000
+00
+#salicapr# 0   000000000000000
+00
+
+#16 tiet ym# dryish.forest 100 100
+#poputrem# 0   000000000001000
+00
+#salicapr# 0   000000000001000
+		   000000000000000
+
+
+

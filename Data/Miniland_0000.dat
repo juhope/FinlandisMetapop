@@ -1,0 +1,69 @@
+#Land Units File                                                              #
+# Land units are site data that is static throughout the model run. There may #
+# be up to 255 land units on any input map. The model has been tested with 8  #
+# active land units.                                                          #
+
+
+empty 0 0 0      #empty=Empty Land unit, 0=fire mean return interval 0=number #
+## 0.0 0.0   #of years of cohort growth must be present on a site before a#
+## 0.0 0.0   #shade tolerance of 5 speciec may seed into the site.        #
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+water 0 0 0  
+#poputrem# 0 0.0
+#salicapr# 0 0.0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+0 0 0 0 0
+
+vatmark    0 5000 10 
+#poputrem# 0 0
+#salicapr# 0 0
+10 30 50 90 150
+0  1  1  1  1
+0 0 0 0 0
+0 0 0 0 0
+
+pine.bog  0 1000 10    
+#poputrem# 0 0
+#salicapr# 0 0
+10 30 50 90 150
+0  1  1  1  1
+0 0 0 0 0
+0 0 0 0 0
+
+spruce.swamp 0 1000 10   
+#poputrem# 0.05646 0.00151
+#salicapr# 0.31582 0
+10 30 50 90 150
+0  1  3  3  4
+0 0 0 0 0
+0 0 0 0 0
+
+mesic.forest 0 100 10 
+#poputrem# 0.5236760982 0.00151
+#salicapr# 0.1950125336 0.00502
+10 30 50 90 150
+0  1  3  3  4
+0 0 0 0 0
+0 0 0 0 0
+
+dryish.forest 0 60 10    
+#poputrem# 0.05646 0
+#salicapr# 0.31582 0.00502
+10 30 50 90 150
+0  1  2  2  3
+0 0 0 0 0
+0 0 0 0 0
+
+buffer 0 100 10
+#poputrem# 0 0
+#salicapr# 0 0
+10 30 50 90 150
+0  1  3  3  3
+0 0 0 0 0
+0 0 0 0 0

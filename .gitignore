@@ -1,0 +1,16 @@
+*.exe
+*.log
+/Data/output/
+*/*/__recovery/*
+*.rcs
+*.plt
+*.bpr
+*.tds
+*.local
+*.res
+*.todo
+*.~*
+*.stat
+*/Win32/*
+*/Debug/*
+.DS_Store
