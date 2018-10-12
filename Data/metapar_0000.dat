@@ -1,5 +1,5 @@
-D:\Henna\MetapopDyn_05d_dispersal_samples_100rep\yasp		file name stem for host species 1 input map (without year and .gis extension)
-D:\Henna\MetapopDyn_05d_dispersal_samples_100rep\ywil		file name stem for host species 2 input map
+C:\Users\juhop\FinlandisMetapop\Data\Output\yasp		file name stem for host species 1 input map (without year and .gis extension)
+C:\Users\juhop\FinlandisMetapop\Data\Output\ywil		file name stem for host species 2 input map
 50              minimum age of host 1 suitable as substrate (-1 = never suitable)
 50              minimum age of host 2 suitable as substrate (-1 = never suitable)
 10               earliest reproductive age for simulated species
